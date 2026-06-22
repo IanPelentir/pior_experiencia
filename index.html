@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Ultra Seguro e Intuitivo 2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Bem-vindo ao Futuro da Segurança</h1>
+            <p>Por favor, siga todas as 8 etapas para sua própria proteção.</p>
+        </header>
+
+        <main id="container">
+            <div id="step-container">
+                <!-- As etapas serão injetadas/gerenciadas via JS -->
+                <div class="step active" id="step-1">
+                    <h2>Etapa 1: Cadastro de Nome de Usuário</h2>
+                    <p>Escolha um nome de usuário que não contenha vogais e tenha exatamente 13 caracteres.</p>
+                    <input type="text" id="username" placeholder="Ex: XPTZQRSLMNWKB">
+                    <div class="button-area">
+                        <button id="btn-next-1" onclick="validateStep1()">Próximo</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div id="popup-container"></div>
+
+        <footer>
+            <p>&copy; 2026 IFRO Hackathon - Laboratório de Anti-UX</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
